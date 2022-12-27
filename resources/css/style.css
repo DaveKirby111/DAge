@@ -1,4 +1,4 @@
-/*
+/*-----------------------
 
 TABLE OF CONTENTS:
 
@@ -8,7 +8,7 @@ TABLE OF CONTENTS:
 4. FOOTER
 5. MOBILE
 
-*/
+------------------------*/
 header, nav, .container, main, .content, footer {
   border: 2px solid black;
 }
@@ -91,6 +91,20 @@ footer .info {
   padding: 40px;
 }
 
+@media screen and (max-width: 600px) {
+  header img {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+}
+@media (min-width: 1281px) {
+  .mobilenav {
+    display: none;
+  }
+}
+/* Mobile Menu -----------*/
 .mobilenav {
   max-width: 480px;
   color: white;
@@ -116,4 +130,6 @@ footer .info {
 }
 .topnav #nav {
   display: none;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* End Mobile Menu -----------*//*# sourceMappingURL=style.css.map */

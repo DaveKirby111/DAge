@@ -1,6 +1,6 @@
 @import "_var";
 
-/*
+/*-----------------------
 
 TABLE OF CONTENTS:
 
@@ -10,7 +10,7 @@ TABLE OF CONTENTS:
 4. FOOTER
 5. MOBILE
 
-*/
+------------------------*/
 
 header, nav, .container, main, .content, footer {
     border: 2px solid black;
@@ -117,6 +117,31 @@ footer {
 
 // MOBILE--------------
 
+@media screen and (max-width: 600px) {
+
+    header {
+        img {
+            display: none;
+        }
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+// Target desktop (non-mobile) devices----------
+
+@media (min-width:1281px) { 
+    .mobilenav {
+        display: none;
+    }
+}
+
+// -------------------------------
+
+/* Mobile Menu -----------*/
+
 .mobilenav {
     max-width: 480px;
     color: white;
@@ -146,3 +171,5 @@ footer {
         display: none;
     }
   }
+
+  /* End Mobile Menu -----------*/
