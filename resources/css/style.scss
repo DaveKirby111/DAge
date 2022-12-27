@@ -1,0 +1,148 @@
+@import "_var";
+
+/*
+
+TABLE OF CONTENTS:
+
+1. HEADER
+2. NAV
+3. CONTENT
+4. FOOTER
+5. MOBILE
+
+*/
+
+header, nav, .container, main, .content, footer {
+    border: 2px solid black;
+}
+
+body {
+    text-transform: capitalize;
+}
+
+// HEADER-----------
+
+header {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        font-size: 40px;
+        margin: 0 auto;
+    }
+}
+
+// NAV--------------
+
+nav {
+
+    display: flex;
+    text-transform: capitalize;
+
+    .title {
+        display: flex;
+    }
+
+    p {
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    ul {
+
+        margin-left: auto;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: block;
+                text-decoration: none;
+                padding: 15px;
+                font-size: 15px;
+            }
+
+            a:hover {
+                background-color: gray;
+            }
+        }
+    }
+}
+
+//  CONTENT--------------
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.content {
+    margin: 50px;
+
+    h2 {
+        text-decoration: underline;
+        font-size: 25px;
+    }
+}
+
+// FOOTER--------------
+
+footer {
+    text-transform: capitalize;
+    display: flex;
+
+    .contact {
+        border: 2px solid black;
+        padding: 40px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .info {
+      margin-left: auto;
+      border: 2px solid black;
+      padding: 40px;
+    }
+}
+
+// MOBILE--------------
+
+.mobilenav {
+    max-width: 480px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    border: 2px solid black;
+
+    a {
+        padding: 15px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #nav {
+        display: none;
+    }
+  }
