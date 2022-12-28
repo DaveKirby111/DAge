@@ -33,9 +33,13 @@
     </ul>
 </nav>
 
-<header>
+<header style="background-image: url('resources/images/breach.gif');
+background-size: 100% 100%;">
+
     <img src="resources/images/dage-logo.jpg" alt="logo">
+
     <h1>homepage</h1>
+    
 </header>
 
 <div class="container" 
@@ -45,6 +49,7 @@ background-size: 100% 100%;">
     <main>
 
     <div class="content">
+
         <h2>intro</h2>
     </div>
 

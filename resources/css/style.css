@@ -9,22 +9,26 @@ TABLE OF CONTENTS:
 5. MOBILE
 
 ------------------------*/
-header, nav, .container, main, .content, footer {
+header, nav, .container, main, footer {
   border: 2px solid black;
 }
 
 body {
   text-transform: capitalize;
+  font-family: "Play", sans-serif;
 }
 
 header {
-  padding: 40px;
+  padding: 60px;
   display: flex;
   align-items: center;
 }
 header h1 {
-  font-size: 40px;
+  font-size: 70px;
   margin: 0 auto;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 5px red;
 }
 
 nav {
@@ -45,12 +49,15 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
+  border-left: 1px solid black;
+  margin-left: -4px;
 }
 nav ul li a {
   display: block;
   text-decoration: none;
   padding: 15px;
   font-size: 15px;
+  color: red;
 }
 nav ul li a:hover {
   background-color: gray;
@@ -64,14 +71,20 @@ nav ul li a:hover {
 
 main {
   flex: 1;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .content {
   margin: 50px;
+  color: black;
 }
 .content h2 {
   text-decoration: underline;
   font-size: 25px;
+  margin-bottom: 20px;
+}
+.content p {
+  margin-bottom: 20px;
 }
 
 footer {
@@ -84,6 +97,7 @@ footer .contact {
 }
 footer .contact a {
   text-decoration: none;
+  color: red;
 }
 footer .info {
   margin-left: auto;
@@ -91,7 +105,7 @@ footer .info {
   padding: 40px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   header img {
     display: none;
   }
@@ -99,7 +113,22 @@ footer .info {
     display: none;
   }
 }
-@media (min-width: 1281px) {
+@media (min-width: 854px) {
+  .mobilenav {
+    display: none;
+  }
+}
+@media (min-width: 810px) {
+  .mobilenav {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  .mobilenav {
+    display: none;
+  }
+}
+@media (min-width: 1280px) {
   .mobilenav {
     display: none;
   }
