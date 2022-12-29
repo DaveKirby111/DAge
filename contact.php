@@ -4,20 +4,20 @@
 
 <?php
 
-$heading = "homepage";
+$heading = "contact";
 
 ?>
 
 <?php require "banner.php"; ?>
 
 <div class="container" 
-style="background-image: url('resources/images/D-age.jpg');">
+style="background-image: url('resources/images/D-age.jpg');
+background-size: 100% 100%;">
 
     <main>
 
     <div class="content">
-
-        <h2>intro</h2>
+        
     </div>
 
     </main>

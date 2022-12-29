@@ -12,10 +12,6 @@ TABLE OF CONTENTS:
 
 ------------------------*/
 
-header, nav, .container, main, footer {
-    border: 2px solid black;
-}
-
 body {
     text-transform: capitalize;
     font-family: 'Play', sans-serif;
@@ -125,8 +121,32 @@ main {
         margin-bottom: 20px;
     }
 
+    .gal {
+        text-align: center;
+        font-size: 40px;
+    }
+
     p {
         margin-bottom: 20px;
+    }
+}
+
+.gallery {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    tr {
+        td {
+            padding: 20px;
+        }
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
     }
 }
 
@@ -137,7 +157,7 @@ footer {
     display: flex;
 
     .contact {
-        border: 2px solid black;
+        border-top: 1px solid black;
         padding: 40px;
 
         a {
@@ -148,7 +168,7 @@ footer {
 
     .info {
       margin-left: auto;
-      border: 2px solid black;
+      border-top: 1px solid black;
       padding: 40px;
     }
 }
@@ -161,10 +181,21 @@ footer {
         img {
             display: none;
         }
+
+    h1 {
+        font-size: 50px;
+    }
+
     }
 
     nav {
         display: none;
+    }
+
+    .gallery {
+        tr {
+            width: 200px;
+        }
     }
 }
 
