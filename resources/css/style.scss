@@ -150,6 +150,37 @@ main {
     }
 }
 
+.c-ment {
+    margin-bottom: 20px;
+    border: 2px solid yellow;
+    padding: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(black, 70%);
+    color: yellow;
+
+    button {
+        padding: 10px;
+        width: 90px;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+}
+
+.comment {
+    margin-bottom: 20px;
+    border: 2px solid yellow;
+    padding: 10px;
+    background-color: rgba(black, 70%);
+    color: yellow;
+
+    h4 {
+        font-size: 20px;
+    }
+}
+
+
 // FOOTER--------------
 
 footer {

@@ -10,6 +10,8 @@ require "dbconnect.php";
 
 $db = new database();
 
+$cments = $db->query("select * from comments;");
+
 ?>
 
 <?php require "banner.php"; ?>
@@ -21,14 +23,33 @@ style="background-image: url('resources/images/D-age.jpg');">
 
     <div class="content">
 
-    <form action="comment.php">
+    <form action="comment.php" method="post" class="c-ment">
         <label for="name">name:</label><br>
-        <input type="text" name="name" id="name"><br><br>
+        <input type="text" name="uname" id="name"><br><br>
 
         <label for="comment">comment:</label><br>
-        <textarea name="comment" id="comment" cols="30" rows="10"></textarea><br><br>
+        <textarea name="comm" id="comm" cols="70" rows="20"></textarea><br><br>
         <button type="submit">submit</button>
     </form>
+
+    <?php
+
+    foreach($cments as $cment) {
+
+    ?>
+
+    <div class="comment">
+
+    <h4>Name: <?php echo $cment['name']; ?></h4>
+    <h4>Comment:</h4><br>
+    <p><?php echo $cment['comment']; ?></p>
+    </div>
+
+    <?php
+
+    }
+
+    ?>
 
     </div>
 
