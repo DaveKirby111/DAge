@@ -97,6 +97,11 @@ style="background-image: url('resources/images/D-age.jpg');">
                     <img src="resources/images/anders.jpg" alt="da2">
                     </a>
                 </td>
+                <td>
+                    <a href="resources/images/fenris.jpg" target="_blank">
+                    <img src="resources/images/fenris.jpg" alt="da2">
+                    </a>
+                </td>
             </tr>
         </table>
 
