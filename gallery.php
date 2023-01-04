@@ -38,9 +38,21 @@ style="background-image: url('resources/images/D-age.jpg');">
                 </td>
             </tr>
             <tr>
-                <td><img src="resources/images/sten.jpg" alt="dao"></td>
-                <td><img src="resources/images/wynne.webp" alt="dao"></td>
-                <td><img src="resources/images/oghren.jpg" alt="dao"></td>
+                <td>
+                <a href="resources/images/sten.jpg" target="_blank">
+                    <img src="resources/images/sten.jpg" alt="dao">
+                </a>
+                </td>
+                <td>
+                <a href="resources/images/wynne.webp" target="_blank">
+                    <img src="resources/images/wynne.webp" alt="dao">
+                </a>
+                </td>
+                <td>
+                <a href="resources/images/oghren.jpg" target="_blank">
+                    <img src="resources/images/oghren.jpg" alt="dao">
+                </a>
+                </td>
             </tr>
         </table>
 

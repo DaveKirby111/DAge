@@ -23,3 +23,7 @@ if ($conn->query($sql) === TRUE) {
   }
 
 ?>
+
+<br><br>
+
+<a href="comments.php" class="return">Return to comments</a>

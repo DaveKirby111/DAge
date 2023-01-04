@@ -34,7 +34,7 @@ style="background-image: url('resources/images/D-age.jpg');">
 
     <?php
 
-    foreach($cments as $cment) {
+    foreach(array_reverse($cments) as $cment) {
 
     ?>
 
