@@ -20,13 +20,13 @@ background-size: 100% 100%;">
 
     <form action="email.php" method="post" class="e-mail">
         <label for="email">Email: </label>
-        <input type="email" name="email" id="email"><br><br>
+        <input type="email" name="email" id="email" size="50"><br><br>
 
         <label for="subject">Subject: </label>
-        <input type="text" name="subject" id="subject"><br><br>
+        <input type="text" name="subject" id="subject" size="50"><br><br>
 
         <label for="message">Message: </label><br>
-        <textarea name="message" id="message" cols="50" rows="20"></textarea><br>
+        <textarea name="message" id="message" cols="100" rows="20"></textarea><br>
 
         <button type="submit">send</button>
         <button type="reset">clear</button>

@@ -75,13 +75,13 @@ style="background-image: url('resources/images/D-age.jpg');">
                     <img src="resources/images/aveline.png" alt="da2">
                     </a>
                 </td>
-                <td>
+            </tr>
+            <tr>
+            <td>
                     <a href="resources/images/varric.jpg" target="_blank">
                     <img src="resources/images/varric.jpg" alt="da2">
                     </a>
                 </td>
-            </tr>
-            <tr>
                 <td>
                     <a href="resources/images/merril.webp" target="_blank">
                     <img src="resources/images/merril.webp" alt="da2">
@@ -92,16 +92,18 @@ style="background-image: url('resources/images/D-age.jpg');">
                     <img src="resources/images/isabella.webp" alt="da2">
                     </a>
                 </td>
-                <td>
-                    <a href="resources/images/anders.jpg" target="_blank">
-                    <img src="resources/images/anders.jpg" alt="da2">
-                    </a>
-                </td>
-                <td>
-                    <a href="resources/images/fenris.jpg" target="_blank">
-                    <img src="resources/images/fenris.jpg" alt="da2">
-                    </a>
-                </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="resources/images/anders.jpg" target="_blank">
+                <img src="resources/images/anders.jpg" alt="da2">
+                </a>
+            </td>
+            <td>
+                <a href="resources/images/fenris.jpg" target="_blank">
+                <img src="resources/images/fenris.jpg" alt="da2">
+                </a>
+            </td>
             </tr>
         </table>
 
@@ -124,33 +126,41 @@ style="background-image: url('resources/images/D-age.jpg');">
                     <img src="resources/images/dai-varric.webp" alt="dai">
                     </a>
                 </td>
-                <td>
-                    <a href="resources/images/blackwall.jpg" target="_blank">
-                    <img src="resources/images/blackwall.jpg" alt="dai">
-                    </a>
-                </td>
             </tr>
             <tr>
-                <td>
-                    <a href="resources/images/iron-bull.jpg" target="_blank">
-                    <img src="resources/images/iron-bull.jpg" alt="dai">
-                    </a>
-                </td>
-                <td>
-                    <a href="resources/images/sera.webp" target="_blank">
-                    <img src="resources/images/sera.webp" alt="dai">
-                    </a>
-                </td>
-                <td>
-                    <a href="resources/images/vivienne.jpg" target="_blank">
-                    <img src="resources/images/vivienne.jpg" alt="dai">
-                    </a>
-                </td>
-                <td>
-                    <a href="resources/images/dorian.jpg" target="_blank">
-                    <img src="resources/images/dorian.jpg" alt="dai">
-                    </a>
-                </td>
+            <td>
+                <a href="resources/images/blackwall.jpg" target="_blank">
+                <img src="resources/images/blackwall.jpg" alt="dai">
+                </a>
+            </td>
+            <td>
+                <a href="resources/images/iron-bull.jpg" target="_blank">
+                <img src="resources/images/iron-bull.jpg" alt="dai">
+                </a>
+            </td>
+            <td>
+                <a href="resources/images/sera.webp" target="_blank">
+                <img src="resources/images/sera.webp" alt="dai">
+                </a>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="resources/images/vivienne.jpg" target="_blank">
+                <img src="resources/images/vivienne.jpg" alt="dai">
+                </a>
+            </td>
+            <td>
+                <a href="resources/images/dorian.jpg" target="_blank">
+                <img src="resources/images/dorian.jpg" alt="dai">
+                </a>
+            </td>
+
+            <td>
+                <a href="resources/images/cole-1.jpg" target="_blank">
+                    <img src="resources/images/cole-1.jpg" alt="dai">
+                </a>
+            </td>
             </tr>
         </table>
 

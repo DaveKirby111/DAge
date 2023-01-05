@@ -16,7 +16,7 @@ body {
     font-family: 'Play', sans-serif;
 }
 
-h1, h2, h3, li, p:first-letter {
+h1, h2, h3, li, label, p:first-letter {
     text-transform: capitalize;
 }
 
@@ -99,7 +99,11 @@ main {
 .content {
 
     margin: 50px;
-    color: black;
+    color: yellow;
+    font-weight: bolder;
+    background-color: rgba(black, 70%);
+    border: 2px solid yellow;
+    padding: 50px;
 
     h2 {
         text-decoration: underline;
@@ -114,6 +118,10 @@ main {
 
     p {
         margin-bottom: 20px;
+    }
+
+    .char {
+        font-size: 20px;
     }
 }
 
@@ -138,7 +146,7 @@ main {
 
 .c-ment {
     margin-bottom: 20px;
-    border: 2px solid yellow;
+    border: 5px solid yellow;
     padding: 20px;
     width: 600px;
     margin-left: auto;
@@ -147,7 +155,7 @@ main {
     color: yellow;
 
     button {
-        padding: 10px;
+        padding: 5px;
         width: 90px;
         font-size: 15px;
         text-transform: capitalize;
@@ -156,7 +164,7 @@ main {
 
 .comment {
     margin-bottom: 20px;
-    border: 2px solid yellow;
+    border: 5px solid yellow;
     padding: 10px;
     background-color: rgba(black, 70%);
     color: yellow;
@@ -167,16 +175,26 @@ main {
 }
 
 .e-mail {
-    border: 2px solid yellow;
+    border: 5px solid yellow;
     padding: 20px;
-    width: 500px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(black, 70%);
     color: yellow;
+
+    button {
+        padding: 5px;
+        width: 90px;
+        font-size: 15px;
+    }
 }
 
 ol {
+    margin-bottom: 20px;
+}
+
+.f-img {
     margin-bottom: 20px;
 }
 
@@ -195,6 +213,7 @@ footer {
         a {
             text-decoration: none;
             color: yellow;
+            font-size: 20px;
         }
     }
 

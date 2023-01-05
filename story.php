@@ -11,8 +11,7 @@ $heading = "story";
 <?php require "banner.php"; ?>
 
 <div class="container" 
-style="background-image: url('resources/images/D-age.jpg');
-background-size: 100% 100%;">
+style="background-image: url('resources/images/D-age.jpg');">
 
     <main>
 
