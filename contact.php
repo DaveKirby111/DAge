@@ -1,6 +1,6 @@
-<?php require "header.php"; ?>
+<?php require "partials/header.php"; ?>
 
-<?php require "nav.php"; ?>
+<?php require "partials/nav.php"; ?>
 
 <?php
 
@@ -8,7 +8,7 @@ $heading = "contact";
 
 ?>
 
-<?php require "banner.php"; ?>
+<?php require "partials/banner.php"; ?>
 
 <div class="container" 
 style="background-image: url('resources/images/D-age.jpg');
@@ -37,4 +37,4 @@ background-size: 100% 100%;">
     </main>
 </div>
 
-<?php require "footer.php"; ?>
+<?php require "partials/footer.php"; ?>

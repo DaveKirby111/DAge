@@ -1,6 +1,6 @@
-<?php require "header.php"; ?>
+<?php require "partials/header.php"; ?>
 
-<?php require "nav.php"; ?>
+<?php require "partials/nav.php"; ?>
 
 <?php
 
@@ -8,7 +8,7 @@ $heading = "homepage";
 
 ?>
 
-<?php require "banner.php"; ?>
+<?php require "partials/banner.php"; ?>
 
 <div class="container" 
 style="background-image: url('resources/images/D-age.jpg');">
@@ -16,9 +16,6 @@ style="background-image: url('resources/images/D-age.jpg');">
     <main>
 
     <div class="content">
-
-    <img src="resources/images/Drag-Age.jpg" alt="f-img" class="f-img" 
-    style="width: 800px;">
 
         <h2>intro</h2>
 
@@ -36,4 +33,4 @@ style="background-image: url('resources/images/D-age.jpg');">
     </main>
 </div>
 
-<?php require "footer.php"; ?>
+<?php require "partials/footer.php"; ?>
