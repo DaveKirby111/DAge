@@ -17,6 +17,14 @@ style="background-image: url('resources/images/D-age.jpg');">
 
     <div class="content">
 
+    <div class="audio">
+
+    <audio controls>
+        <source src="resources/media/MagePride.mp3" type="audio/mpeg">
+    </audio>
+
+    </div>
+
         <h2>intro</h2>
 
         <p>One thing that BioWare has been really good at is creating worlds and characters that make people care about them. Dragon Age: Origins is no exception to that. One thing I like most about RPGs is the ability to create a character that is yours. BioWare games let you get to know the people who join and fight beside you. Your companions each have interesting backstories and quests. Depending on your choices you can have an influence on them. </p>

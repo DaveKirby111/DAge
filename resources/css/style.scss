@@ -61,7 +61,6 @@ nav {
 
         li {
             display: inline-block;
-            border-left: 1px solid black;
 
             // display: inline-block adds 4px to the left of each link by default. 
             // Add -4px get rid of the space.
@@ -198,6 +197,16 @@ ol {
     margin-bottom: 20px;
 }
 
+.audio {
+   width: 400px;
+   margin: auto;
+   margin-bottom: 20px;
+   display: flex;
+
+   audio {
+    margin: 0 auto;
+   }
+}
 
 // FOOTER--------------
 
@@ -276,39 +285,3 @@ footer {
         display: none;
     }
 }
-
-// -------------------------------
-
-/* Mobile Menu -----------*/
-
-.mobilenav {
-    max-width: 480px;
-    color: white;
-    border-radius: 10px;
-}
-
-.topnav {
-    overflow: hidden;
-    position: relative;
-    border: 2px solid black;
-
-    a {
-        padding: 15px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-
-    a.icon {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    #nav {
-        display: none;
-    }
-  }
-
-  /* End Mobile Menu -----------*/
