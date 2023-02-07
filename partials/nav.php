@@ -14,8 +14,7 @@
         "trailer.php" => "Trailer",
         "story.php" => "Story",
         "chars.php" => "Characters",
-        "gallery.php" => "Gallery",
-        "comments.php" => "Comments"
+        "gallery.php" => "Gallery"
     ];
 
     foreach ($nav as $key => $link) {

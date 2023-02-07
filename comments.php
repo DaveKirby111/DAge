@@ -10,7 +10,7 @@ require "dbconnect.php";
 
 $db = new database();
 
-$cments = $db->query("select * from comments;");
+$cments = $db->query("select * from users, comments;");
 
 ?>
 
@@ -40,7 +40,7 @@ style="background-image: url('resources/images/D-age.jpg');">
 
     <div class="comment">
 
-    <h4>Name: <?php echo $cment['name']; ?></h4>
+    <h4>Name: <?php echo $cment['user']; ?></h4>
     <h4>Comment:</h4><br>
     <p><?php echo $cment['comment']; ?></p>
     </div>

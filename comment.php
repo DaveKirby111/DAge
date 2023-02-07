@@ -13,8 +13,11 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "insert into comments(name, comment) 
-values ('$name', '$comm')";
+$sql = "insert into users(user) 
+values ('$name')";
+
+$sql = "insert into comments(comment) 
+values ('$comm')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

@@ -4,7 +4,7 @@
 
 <?php
 
-$heading = "homepage";
+$heading = "welcome";
 
 ?>
 
@@ -25,6 +25,25 @@ style="background-image: url('resources/images/D-age.jpg');">
 
     </div>
 
+    <section>
+
+    <div class="LRhand">
+
+    <img id="Inq" src="resources/images/Inq.jpg" alt="inquisition">
+
+    <div class="LRbtns">
+
+    <button id="left" onclick="changeL()">Left</button>
+    <button id="right" onclick="changeR()">Right</button>
+
+    </div>
+
+    <p id="hand">Left/Right Hand</p>
+
+    </div>
+
+    <article class="intro">
+
         <h2>intro</h2>
 
         <p>One thing that BioWare has been really good at is creating worlds and characters that make people care about them. Dragon Age: Origins is no exception to that. One thing I like most about RPGs is the ability to create a character that is yours. BioWare games let you get to know the people who join and fight beside you. Your companions each have interesting backstories and quests. Depending on your choices you can have an influence on them. </p>
@@ -36,6 +55,11 @@ style="background-image: url('resources/images/D-age.jpg');">
         <p>Next, I don't like Inquistion for the padding. The game is filled with busy work that as the leader of an Inquisition, you should be able to get other people to do it. But, it also contributes to your power and influence, which is necessary to unlock content. Your ability to progress in the story is locked behind an arbitrary number that forces you to do a bunch of un-interesting side activities that should be optional.</p>
 
         <p>The characters are still the strongest aspect of Inquisition. There are quite a few of them that I like. There are also some really good story moments. The combat is, I think, much improved over the previous two games. Although, like with Mass Effect, the mechanics became too oversimplified.</p>
+
+    </article>
+
+    </section>
+
     </div>
 
     </main>

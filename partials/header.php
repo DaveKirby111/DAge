@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"> 
-
-    <script src="resources/js/mob-menu.js"></script>
+    
+    <script src="resources/js/changepic.js"></script>
 </head>
 <body>

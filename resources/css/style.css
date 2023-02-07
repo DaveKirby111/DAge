@@ -173,6 +173,41 @@ ol {
   margin: 0 auto;
 }
 
+video {
+  display: flex;
+  margin: 0 auto;
+}
+
+.LRhand {
+  width: 290px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+.LRhand p {
+  text-align: center;
+}
+.LRhand #Inq {
+  height: 344px;
+  width: 288px;
+}
+
+.LRbtns {
+  margin-bottom: 20px;
+}
+
+#right {
+  float: right;
+}
+
+.intro {
+  padding: 10px;
+}
+
+section {
+  display: flex;
+}
+
 footer {
   text-transform: capitalize;
   display: flex;
