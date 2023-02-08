@@ -34,4 +34,4 @@ $messagesent = false;
 
 <br><br>
 
-<a href="index.php">Return to homepage</a>
+<a href="/">Return to homepage</a>

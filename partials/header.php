@@ -16,5 +16,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"> 
     
     <script src="resources/js/changepic.js"></script>
+    <script src="resources/js/mob-menu.js"></script>
 </head>
 <body>

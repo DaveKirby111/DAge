@@ -12,6 +12,10 @@ TABLE OF CONTENTS:
 
 ------------------------*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Play', sans-serif;
 }
@@ -287,6 +291,27 @@ footer {
 
     }
 
+    #links {
+        display:none;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .content {
+        max-width: 480px;
+        margin: auto;
+        background-color: #555;
+        border-radius: 10px;
+        height: 100vh;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
     nav {
         display: none;
     }
@@ -299,27 +324,58 @@ footer {
 }
 
 @media (min-width:854px) { 
-    .mobilenav {
+    .mobile {
         display: none;
     }
 }
 
 @media (min-width:810px) { 
-    .mobilenav {
+    .mobile {
         display: none;
     }
 }
 
 @media (min-width:800px) { 
-    .mobilenav {
+    .mobile {
         display: none;
     }
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
 // Target desktop (non-mobile) devices----------
 
 @media (min-width:1280px) { 
-    .mobilenav {
+    .mobile {
         display: none;
     }
 }
